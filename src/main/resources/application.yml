@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: prp-server-gateway
+  profiles:
+    active: local
+  config:
+    import: "optional:configserver:"
